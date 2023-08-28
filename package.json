@@ -1,0 +1,14 @@
+{
+  "name": "jogodavelha",
+  "version": "1.0.0",
+  "description": "Esse e um jogo da velha pwa",
+  "main": "index.html",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "author": "Erick Amorim",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
