@@ -4,10 +4,6 @@ body {
   color: white;
 }
 
-img {
-  width: 80px;
-}
-
 html, .fullscreen {
     height: 100%;
     margin: 0;
@@ -44,6 +40,9 @@ header {
 .casas-padrao {
   width: 120px;
   height: 120px;
+  background-image: none;
+  background-size: cover;
+  cursor: pointer;
 }
 
 .linha-bottom {
@@ -54,3 +53,16 @@ header {
   border-left: 3px solid white;
   border-right: 3px solid white;
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+  text-align: center;
+}
+
