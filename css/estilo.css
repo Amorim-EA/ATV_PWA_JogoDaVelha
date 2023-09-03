@@ -48,7 +48,7 @@ header {
 }
 
 .linha-bottom {
- border-bottom: 3px solid white;
+ border-bottom: 3px solid #333333;
 }
 
 .linha-left-right {
@@ -62,14 +62,17 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #1e1e1e;
+  background-color: #00A86B;
   padding: 20px;
   border: 2px solid #333;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 #reiniciar {
-    background-color: #333333;
+    background-color: #FF6347;
     color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
