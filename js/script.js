@@ -45,11 +45,11 @@ function verificarJogo() {
     let vitoria_de_O = possibilidadesDeVitorias(2);
     
     if(vitoria_de_X){
-      popUp('O x ganhou!');
+      popUp('Vitória de X!');
     } else if(vitoria_de_O){
-      popUp('O bolinha ganhou!');
+      popUp('Vitória de O!');
     } else if(quantidadeJogadas === 9) {
-      popUp('Deu empate!');
+      popUp('Empate!');
     } else {
       return;
     }
